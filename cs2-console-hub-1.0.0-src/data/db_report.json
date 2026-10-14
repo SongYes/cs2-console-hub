@@ -1,0 +1,96 @@
+{
+  "total": 5423,
+  "release": 1396,
+  "key": 1499,
+  "with_zh": 5423,
+  "hand_zh": 50,
+  "auto_zh": 303,
+  "no_zh": 1816,
+  "release_with_zh": 1396,
+  "game_verified": 2802,
+  "wiki_only": 2621,
+  "by_category": [
+    [
+      "engine",
+      1734
+    ],
+    [
+      "video",
+      689
+    ],
+    [
+      "hud",
+      551
+    ],
+    [
+      "debug",
+      498
+    ],
+    [
+      "server",
+      495
+    ],
+    [
+      "game",
+      445
+    ],
+    [
+      "audio",
+      429
+    ],
+    [
+      "view",
+      152
+    ],
+    [
+      "input",
+      107
+    ],
+    [
+      "perf",
+      104
+    ],
+    [
+      "demo",
+      61
+    ],
+    [
+      "tool",
+      50
+    ],
+    [
+      "practice",
+      49
+    ],
+    [
+      "aim",
+      38
+    ],
+    [
+      "comm",
+      20
+    ],
+    [
+      "account",
+      1
+    ]
+  ],
+  "by_scope": [
+    [
+      "client",
+      2262
+    ],
+    [
+      "server",
+      1407
+    ],
+    [
+      "unknown",
+      952
+    ],
+    [
+      "both",
+      802
+    ]
+  ]
+}

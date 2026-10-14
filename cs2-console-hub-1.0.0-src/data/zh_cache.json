@@ -1,0 +1,248 @@
+{
+ "cl_weapon_debug_show_accuracy": {
+  "zh": "[AI译] cl_weapon_debug_show_accuracy 的中文释义（模拟）",
+  "src": "ai",
+  "model": "mock",
+  "at": "2026-10-14T10:40:57+00:00"
+ },
+ "mp_teamflag_1": {
+  "zh": "输入国家 Alpha-2 代码，在观战计分板队伍1名称旁显示该国国旗。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-13T18:34:05+00:00"
+ },
+ "cl_crosshair_friendly_warning": {
+  "zh": "队友准星警告：0关闭，1开启。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "cl_show_observer_crosshair": {
+  "zh": "显示被观察玩家的准星。0关闭，1仅好友和组队，2所有人。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "firstperson": {
+  "zh": "切换到第一人称视角。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_freeze_deathanim_time": {
+  "zh": "死亡镜头在进入冻结死亡镜头前观看玩家布娃娃的时间。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_freeze_time": {
+  "zh": "观察者冻结镜头中冻结的持续时间。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_freeze_time_lock": {
+  "zh": "玩家被禁止跳过冻结镜头的时间。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_freeze_traveltime": {
+  "zh": "观察者冻结镜头中拉近并框定目标所需的时间。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_glow_decay_time": {
+  "zh": "spec_glow_full_time后，光晕从1.0衰减到spec_glow_silent_factor的时间。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_glow_full_time": {
+  "zh": "发出噪音的玩家保持全亮度的时间。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_glow_silent_factor": {
+  "zh": "潜伏玩家X光光晕缩放。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_glow_spike_factor": {
+  "zh": "吵闹玩家X光光晕缩放（发出噪音时弹出）。设为大于1可为发出噪音玩家添加“尖峰”。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_glow_spike_time": {
+  "zh": "吵闹玩家光晕“尖峰”显示其刚发出噪音的时间。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_bot": {
+  "zh": "被机器人击杀时启用观察者HLTV回放。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_enable": {
+  "zh": "启用击杀者回放，需HLTV服务器运行（0关闭，1默认，2强制）。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_leadup_time": {
+  "zh": "高亮事件前的回放时间（秒）。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_message_time": {
+  "zh": "显示击杀者回放消息的时长。最佳设置略短于 spec_replay_autostart_delay + spec_replay_leadup_time + spec_replay_winddown_time。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_on_death": {
+  "zh": "当大于0时，玩家观看延迟回放，且聊天与语音与存活玩家隔离。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_rate_base": {
+  "zh": "击杀者回放的基础时间缩放。实验性。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_rate_limit": {
+  "zh": "回放请求之间允许的最小暂停时间（秒）。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:17+00:00"
+ },
+ "spec_replay_round_delay": {
+  "zh": "因有人看回放可延迟回合的秒数；至少需3-4秒，否则最后回放会被回合开始打断。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "spec_replay_winddown_time": {
+  "zh": "回放事件后的收尾时间（秒），包含淡出。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "spec_show_xray": {
+  "zh": "设为1时，可穿墙看到玩家轮廓和名字ID；可见对象取决于队伍和模式。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "sv_spec_hear": {
+  "zh": "决定观众能听到谁：0仅观众；1所有玩家；2所观战队伍；3仅自己；4无人。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_advertise_watchable": {
+  "zh": "GOTV通过游戏UI宣传比赛可观看，通过UI观看的客户端无需输入密码。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_allow_autorecording_index": {
+  "zh": "当>=0时，仅限制指定TV索引自动录制。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_allow_camera_man_steamid": {
+  "zh": "允许赛事制作摄像师用SteamID 7650123456XXX运行csgo.exe -interactivecaster并担任摄像师。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_allow_camera_man_steamid2": {
+  "zh": "允许赛事制作TV摄像师用SteamID 7650123456XXX运行csgo.exe -interactivecaster并担任TV摄像师。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_allow_static_shots": {
+  "zh": "自动导演使用固定关卡摄像机进行镜头拍摄。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_autorecord": {
+  "zh": "自动将所有比赛录制为SourceTV录像。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_autoretry": {
+  "zh": "中继代理在网络超时后重试连接。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast": {
+  "zh": "自动通过Steam将所有比赛作为GOTV录像广播。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast1": {
+  "zh": "自动通过Steam将所有比赛作为GOTV[1]录像广播。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast_keyframe_interval": {
+  "zh": "向广播中继服务器发送关键帧和增量片段的频率（秒）。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast_keyframe_interval1": {
+  "zh": "向broadcast1中继服务器发送关键帧和增量片段的频率（秒）。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast_max_requests": {
+  "zh": "广播HTTP请求最大并发数。网络问题时会积压并降低性能，超出则丢弃新请求。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast_max_requests1": {
+  "zh": "broadcast1 HTTP请求最大并发数。网络问题时会积压并降低性能，超出则丢弃新请求。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast_spew_threshold": {
+  "zh": "输出快照tick信息的阈值（秒）。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast_startup_resend_interval": {
+  "zh": "向广播中继服务器重发启动数据的间隔（秒），用于中继崩溃、重启或启动数据请求失败时。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ },
+ "tv_broadcast_url": {
+  "zh": "release：广播中继的URL。",
+  "src": "ai",
+  "model": "deepseek-flash",
+  "at": "2026-10-14T04:59:25+00:00"
+ }
+}
