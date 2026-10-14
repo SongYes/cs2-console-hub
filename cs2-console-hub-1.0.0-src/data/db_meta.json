@@ -1,0 +1,40 @@
+{
+ "ok": true,
+ "version": "2026.10.14",
+ "built_at": "2026-10-14T13:39:49+08:00",
+ "count": 2802,
+ "core_count": 1336,
+ "release_count": 1253,
+ "new_count": 281,
+ "tracked_at": "2026-10-14T00:46:41+00:00",
+ "hand_zh": 29,
+ "auto_zh": 184,
+ "game_verified": 2802,
+ "wiki_only": 0,
+ "cmd_count": 675,
+ "guard": {
+  "state": "ok",
+  "text": "与干净基线一致"
+ },
+ "source": {
+  "game_export": "CS2 游戏自身控制台 `cvarlist` 的完整导出（VConsole2 会话日志，2802 条 convars/concommands）——**唯一来源**：权限标记、官方英文说明、是否命令（cmd）均以它为准",
+  "note": "库中只保留游戏内实际存在的指令。上游仓库里收录、但本机 CS2 未打印的条目已于本次清理中移除；原始数据备份在 _backup_commands/。"
+ },
+ "sha256": "53ab3074dccae1ce",
+ "fingerprints": {
+  "armync": {
+   "name": "ArmynC-CS2-Cvars",
+   "sha": "2015dbab6baa",
+   "bytes": 453929,
+   "commit": "2301ff1de466",
+   "date": "2025-05-19T12:30:38Z",
+   "message": "CVAR - 1.40.7.9"
+  },
+  "ohlasfar": {
+   "name": "OhLasFar CS2 全指令仓库",
+   "sha": "c37c8cf74c38",
+   "bytes": 198579,
+   "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  }
+ }
+}

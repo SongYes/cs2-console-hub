@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="38%" r="74%">
+      <stop offset="0%" stop-color="#2a3646"/>
+      <stop offset="58%" stop-color="#161c26"/>
+      <stop offset="100%" stop-color="#0b0e12"/>
+    </radialGradient>
+    <linearGradient id="amber2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc75c"/>
+      <stop offset="100%" stop-color="#dd961a"/>
+    </linearGradient>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <clipPath id="round2"><rect width="1024" height="1024" rx="227"/></clipPath>
+  </defs>
+  <g clip-path="url(#round2)">
+    <rect width="1024" height="1024" fill="url(#bg2)"/>
+    <g filter="url(#soft2)" stroke="#ffb030" stroke-opacity=".5" stroke-width="150"
+       stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M292 372 L474 500 L292 628"/><path d="M566 668 L762 668"/>
+    </g>
+    <g stroke="#0a0d12" stroke-opacity=".9" stroke-width="150"
+       stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M292 372 L474 500 L292 628"/><path d="M566 668 L762 668"/>
+    </g>
+    <g stroke="url(#amber2)" stroke-width="92"
+       stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M292 372 L474 500 L292 628"/><path d="M566 668 L762 668"/>
+    </g>
+    <text x="512" y="886" text-anchor="middle" font-family="Consolas, monospace"
+          font-size="104" font-weight="700" fill="#ffffff" fill-opacity=".6">&gt;_</text>
+  </g>
+  <rect x="3" y="3" width="1018" height="1018" rx="225" fill="none"
+        stroke="#ffbe5a" stroke-opacity=".3" stroke-width="7"/>
+</svg>
