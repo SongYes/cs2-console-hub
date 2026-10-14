@@ -1,0 +1,95 @@
+{
+  "name": "cs2-console-hub",
+  "productName": "CS2 控制台指令查询中心",
+  "version": "1.0.0",
+  "description": "CS2 控制台指令查询中心 —— 中文释义、按效果分类、参数方案与 AI 辅助",
+  "author": {
+    "name": "SongYes",
+    "email": "songyuanuwu@gmail.com"
+  },
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/SongYes",
+  "private": true,
+  "main": "desktop/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis",
+    "dist:portable": "electron-builder --win portable",
+    "dist:all": "electron-builder --win nsis portable",
+    "icon": "node desktop/postbuild-icon.js",
+    "test:server": "node desktop/test_server.js",
+    "test:app": "node desktop/run_e2e_packaged.js",
+    "verify:app": "node desktop/verify_installed.js dist/win-unpacked",
+    "test:accept": "node desktop/acceptance.js dist/win-unpacked",
+    "test:offline": "node desktop/verify_offline.js dist/win-unpacked",
+    "pack:release": "python tools/release/make_release.py",
+    "test:exportcfg": "node desktop/verify_exportcfg.js dist/win-unpacked",
+    "verify:readme": "python tools/verify_readme.py",
+    "verify:release": "python tools/release/verify_release.py",
+    "scan:secrets": "python tools/release/scan_secrets.py"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.songyes.cs2consolehub",
+    "productName": "CS2 控制台指令查询中心",
+    "copyright": "Copyright © 2026 SongYes",
+    "afterPack": "desktop/afterpack-icon.js",
+    "directories": {
+      "output": "dist",
+      "buildResources": "desktop/build"
+    },
+    "files": [
+      "index.html",
+      "assets/**/*",
+      "data/commands.json",
+      "data/integrity_baseline.json",
+      "desktop/main.js",
+      "desktop/server.js",
+      "desktop/build/icon.ico",
+      "!**/__pycache__/**",
+      "!**/*.pyc",
+      "!**/*.bak*",
+      "!assets/icons/sheet*.png",
+      "!assets/icons/desktop-preview.png",
+      "!assets/icons/*.svg"
+    ],
+    "extraMetadata": {
+      "main": "desktop/main.js"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "desktop/build/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "portable": {
+      "artifactName": "CS2控制台指令查询中心-${version}-便携版.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "CS2 控制台指令查询中心",
+      "installerLanguages": [
+        "zh_CN"
+      ],
+      "language": "2052",
+      "deleteAppDataOnUninstall": false,
+      "artifactName": "CS2控制台指令查询中心-${version}-安装包.${ext}"
+    },
+    "compression": "maximum",
+    "asar": true,
+    "asarUnpack": []
+  }
+}
