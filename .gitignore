@@ -1,0 +1,63 @@
+# ============ 依赖与构建产物 ============
+node_modules/
+dist/
+release/
+package-lock.json.bak
+*.blockmap
+
+# ============ Python ============
+__pycache__/
+*.pyc
+*.pyo
+
+# ============ 数据库构建中间产物 ============
+# 这些由 tools/ 下的脚本生成，不入库（commands.json / db.js 是成果，入库）
+data/commands.json.bak*
+data/mt_cache.json
+data/mt_audit.json
+data/zh_prev.json
+data/zh_mt.json
+data/game_extra.json
+data/game_extra.preview.json
+data/game_scan.json
+data/game_dump.json
+data/game_dump_report.json
+data/game_missing.json
+data/gap_names.json
+data/game_cvars.txt
+data/game_names.txt
+
+# ============ 游戏导出与原始上游数据 ============
+_dumps/
+_raw/
+
+# ============ 开发中间物 ============
+# 设计稿、逐轮截图、自检脚本与测试报告
+design/
+docs/translation-report.*
+docs/screenshot-*.png
+docs/verify-*.png
+
+# 但 README 里实际引用的那几张界面截图要入库
+# （design/ 下才是开发过程中逐轮的临时截图，那些不入库）
+!docs/screenshot-main.png
+!docs/screenshot-dark.png
+!docs/screenshot-ai.png
+!docs/screenshot-settings.png
+
+# ============ 本机备份 ============
+_backup_*/
+*.bak
+*.bak-*
+
+# ============ 编辑器与系统 ============
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ 本机专属文件 ============
+# .lnk 快捷方式里写死了本机路径与 Windows 用户名，不适合入库
+*.lnk
