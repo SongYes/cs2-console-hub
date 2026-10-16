@@ -22,7 +22,7 @@
 
 ### 桌面版（推荐）
 
-从 [Releases](../../releases) 下载，二选一：
+从 [Releases](https://github.com/SongYes/cs2-console-hub/releases) 下载，二选一：
 
 | 文件 | 适合谁 |
 |---|---|
