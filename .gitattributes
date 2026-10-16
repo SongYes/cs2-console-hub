@@ -1,0 +1,19 @@
+# 统一换行：仓库内文本用 LF，Windows 脚本也按 LF 存储（运行时不受影响）
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.exe   binary
+*.dll   binary
+*.ico   binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary
+*.docx  binary
+*.7z    binary
+
+# 语言统计：让 GitHub 不把生成的数据文件算成主要语言
+assets/db.js      linguist-generated=true
+data/*.json       linguist-generated=true
+
+# 便于 diff 时折叠
+assets/db.js      -diff
